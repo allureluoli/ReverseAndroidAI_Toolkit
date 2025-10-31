@@ -393,4 +393,12 @@ classes_smali
 
 ### 部署说明
 
-首先编辑 `.env` 文件 设置API和 `key` ，本项目默认使用`deepseek`
+1. 首先编辑 `.env` 文件 设置API和 `key` ，本项目默认使用`deepseek`
+
+2. 赋予文件执行权限 `chmod +x install_dependencies.sh`
+
+3. `./install_dependencies.sh` 运行脚本
+
+- 输入 `1` 用于本地部署。
+- 输入 `2` 用于 Conda 环境部署。
+- 输入 `3` 用于虚拟环境部署
